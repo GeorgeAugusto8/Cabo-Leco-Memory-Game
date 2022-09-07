@@ -1,0 +1,70 @@
+.Game {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'PixelGameFont';
+  }
+
+.Time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 100%;
+    height: 4%;
+}
+
+@keyframes Regressiva{
+    from{width: 100%}
+    to{width: 0%}
+}
+
+.Cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 96%;
+}
+
+.Resultado{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.win{
+    font-size: 4em;
+    color: #4bed32;
+    animation: pisca 1s infinite;
+}
+
+.lose{
+    font-size: 4em;
+    color: #fc0f0f;
+    animation: pisca 1s infinite;
+}
+
+.Option{
+    margin: 0.3em;
+    font-size: 1.8em;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  }
+
+.Record{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}  
+
+@keyframes pisca{
+    from{opacity: 0.3;font-size: 4em}
+    to{opacity: 1;font-size: 4.1em}
+}  

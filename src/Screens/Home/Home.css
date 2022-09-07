@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'PixelGameFont';
+}
+
+.VolumeBox {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
+
+.Header1{
+  font-size: 2.5em;
+}
+
+.Header2{
+  font-size: 3.5em;
+}
+
+.Option{
+  margin: 0.3em;
+  font-size: 1.8em;
+  cursor: pointer;
+}
+
+.Play{
+  background-color: white;
+  width: 0.7em;
+  height: 0.7em;
+  margin-left: 0.4em;
+}

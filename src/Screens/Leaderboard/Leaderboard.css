@@ -1,0 +1,24 @@
+.App {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'PixelGameFont';
+}
+
+.Name{
+  font-size: 3em;
+  border: white solid 0.1em;
+  border-radius: 1em;
+  width: 5em;
+}
+
+.Home{
+  margin: 2em;
+  font-size: 1.3em;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
